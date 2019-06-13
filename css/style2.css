@@ -1,0 +1,148 @@
+/*body{
+max-width:1000px;
+background-color:#FFEEC1;
+margin:1% auto;
+outlin:1px solid;
+width:65%;
+height:100%;
+}*/
+
+h1 {
+font:40px bold Comic Sans MS, Comic Sans MS5, cursive ;
+font-size:3vw;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.content, .for_button, .radio1,  .radio2, .radio3, .next, .for_form {
+	background: rgb(180,180,180) radial-gradient(circle at 50% 0, rgba(255,255,255,.65), rgba(255,255,255,.35));
+	text-align:center;
+	width: 100%;
+	max-width: 1000px;
+	border-radius: 10px;
+	box-shadow:
+	inset rgba(0,0,0,.6) 0 -3px 8px,
+	inset rgba(252,255,255,.7) 0 3px 8px,
+	rgba(0,0,0,.8) 0 3px 8px -3px;
+}
+	
+.content {
+	height:100%;
+	margin: 1% auto;
+	outlin:1px solid red;
+}
+
+.for_h1 {
+	color:#4848FF;
+	text-decoration:underline;
+}
+
+.for_h2 {
+	color:#EA00EA;
+	margin-top:3%;
+	text-decoration:underline;
+}
+
+.for_h3 {
+	color:#FF4646;
+	margin-top:3%;
+	line-height:40px;
+	padding-bottom:1%;
+	}
+
+.for_h3 h1 {
+	font: 2vw bold Arial Black, Arial Black, Gadget, sans-serif;
+	text-shadow:5px 5px 10px #5D5D5D;
+}
+	
+.for_button {
+	font:1.5vw bold Arial Black, Arial Black, Gadget, sans-serif;
+	color:#0000FF;
+	text-decoration:none;
+	outline: none;
+	margin: 2.5vw auto;
+	transition: .05s ease-in-out;
+	text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+	cursor:pointer;
+	width:30%;
+	height:5vw;
+	padding: auto;
+	outlin:1px solid red;
+	}	
+
+.for_button:hover:not(:active) {
+  background: linear-gradient(rgb(235,235,235), rgb(225,225,225)) rgb(235,235,235);
+  color:#8000FF;
+}	
+	
+.for_button:active {
+  background: linear-gradient(rgb(225,225,225), rgb(215,215,215)) rgb(225,225,225);
+  color:#CE0000;
+  box-shadow:
+   0 0 1px rgba(0,0,0,.5) inset,
+   0 1px 2px rgba(0,0,0,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}
+
+.for_button2, .for_button1 {
+	padding-top:2% ;
+	padding-bottom:2% ;
+}
+
+.authorization {
+	display:none;
+}
+
+.for_form {
+	width: 65%;
+	
+	position:fixed;
+	top:1%;
+	left:15%;
+	outlin:1px solid red;
+}
+	
+
+	
+	
+.for_form h1{
+	font:30px Times New Roman, Times New Roman, Times, serif;
+	font-size:2.5vw;
+	color:#000055;
+	font-size:3vw;
+}
+
+input {
+	height:;
+	font:bold 2vw Times New Roman, Times New Roman, Times, serif;
+	border-radius:7px;
+	width:70%;
+	padding:3px 20px;
+	outlin:1px solid red;
+}
+
+.button  {
+	margin:25% auto;
+	position:absolute;
+	left:43%;
+	outlin:1px solid red;
+	
+}
+	
+.registration {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+	
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar li { display: inline; }
+	
+	
